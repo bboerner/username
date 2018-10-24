@@ -1,8 +1,10 @@
 import setuptools
 import sys
 
-with open("readme.md", "r") as readme:
-    long_description = readme.read()
+long_description=''
+if False:
+    with open("readme.md", "r") as readme:
+        long_description = readme.read()
 
 setuptools.setup(
     name = "username",
